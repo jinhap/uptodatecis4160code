@@ -1,0 +1,309 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 15%);
+}
+
+body {
+  padding-right: 0 !important;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+}
+
+.containerbody {
+  padding-top: 3rem;
+}
+
+.recipename {
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+}
+
+.checked {
+  color: #c73c1a;
+}
+
+.rating-top {
+  font-size: small;
+  padding-left: 10px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  padding: 20px 0 30px 0;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+.description {
+  font-size: 18px;
+  padding: 15px 0 10px 0;
+}
+
+.avatar {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.author {
+  margin-top: 30px;
+}
+
+.mainimg {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+aside {
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-bottom: 48px;
+  padding: 24px;
+  position: relative;
+}
+
+aside p {
+  font-size: 16px;
+}
+
+.nutritionlink,
+.fullnutrition {
+  text-decoration: underline;
+  text-decoration-color: #f15025;
+  color: grey;
+}
+
+.nutritionlink:hover,
+.fullnutrition:hover {
+  color: #242424;
+  text-decoration-color: #f15025;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  padding-left: 0;
+}
+
+.ingredientlist ul {
+  padding-left: 6px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+label {
+  padding-left: 6px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+.checkbox-check {
+  position: relative;
+  padding-left: 32px;
+}
+
+.checkbox-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.direction {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.modal-dialog {
+  width: 400px !important;
+}
+
+.modal-header {
+  background-color: #f15025;
+  margin: 0;
+}
+
+.modal-title {
+  font-size: 24px;
+  line-height: 2 !important;
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-left: 10%;
+}
+
+.close {
+  color: white !important;
+  opacity: 1 !important;
+  font-size: 2rem !important;
+  line-height: 2.4rem !important;
+  margin-right: 0 !important;
+}
+
+.nutrition-facts-table {
+  width: 100%;
+}
+
+.nutrition-facts-table th,
+.nutrition-facts-table td {
+  font-family: "Bitter", serif;
+  font-weight: normal;
+  text-align: left;
+  padding: 0.25rem 0;
+  border-top: 1px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.nutrition-facts-table td:last-child {
+  text-align: right;
+}
+
+.review-box {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+  display: flex;
+  justify-content: center;
+  order: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 30px;
+}
+
+.recipe-ratings-list {
+  width: 247px;
+}
+
+.ratings-count {
+  display: block;
+  font-style: italic;
+  letter-spacing: 0;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.ratings-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rating {
+  align-items: center;
+  display: flex;
+  padding: 4px;
+  margin-bottom: 0;
+}
+
+.rating-stars {
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 4px;
+  width: 14px;
+  text-align: center;
+}
+
+.icon-star {
+  height: 20px;
+  padding-right: 12px;
+}
+
+.rating-bar-wrapper {
+  background: rgba(0, 0, 0, 0.15);
+  display: block;
+  flex: 0 0 136px;
+  height: 10px;
+  position: relative;
+}
+
+.rating-bar {
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+  position: absolute;
+  height: 10px;
+  top: 0;
+  left: 0;
+}
+
+.rating-count {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 8px;
+}
+
+footer {
+  background: #f2f2f2;
+  color: rgba(0, 0, 0, 0.95);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 20px 0;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.footer-logo {
+  width: auto;
+  height: 80px;
+  padding-bottom: 20px;
+}
+
+.footer-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.footer-item a {
+  background-color: transparent;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.95);
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.footer-item a:hover {
+  color: #e08043;
+}
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+.py-4 {
+  margin: 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: small;
+}

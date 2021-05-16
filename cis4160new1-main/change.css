@@ -1,0 +1,164 @@
+/* begin of the function part */
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.function
+{
+    background:white;
+    text-align: center;
+}
+.function ul
+{
+    display:inline-flex;
+    list-style:none;
+    color:grey;
+}
+.function ul li{
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+.function ul li a{
+    text-decoration: none;
+    color:grey;
+}
+.active, .function ul li{
+    
+    border-radius: 3px;
+}
+.submenu
+{
+    display:none;
+}
+.function ul li:hover .submenu{
+    display:block;
+    position:absolute;
+    background:white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.function ul li:hover .submenu ul{
+    display:block;
+    margin:10px;
+}
+.function ul li:hover .submenu ul li{
+    width:150;
+    padding:10px;
+    border-bottom: 1px;
+}
+/* video 13.50 */
+/* end of the function part */
+/* for the top part */
+div.firstdiv{
+    position: sticky;
+    top:0;
+}
+/* search bar text */
+input[type=search]{
+    float: left;
+    padding: 12px;
+    margin-left:230px;
+    /* margin-top:30px; */
+
+
+}
+/* search bar button */
+form button{
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background:orangered;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    /* margin-top: 20px; */
+    
+
+}
+/* second part */
+.seconddiv{
+    background-color:#ebebe0;
+    padding:100px;
+    padding-top: 40px;
+    padding-bottom:140px;
+}
+.searchbody{
+    margin-left: 20px;
+}
+/* .buttomdown{
+    margin-right: 100px;
+} */
+
+
+
+
+/* register pages */
+.form{
+    text-align:center;
+    margin-top:5%; 
+
+}
+.registerinput{
+    padding: 15px;
+    padding-right: 250px;
+    border:1px solid grey;
+}
+.buttonregister{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 16px 165px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+}
+.alarm{
+    color:grey;
+}
+.signup{
+    color:black;
+    margin-right: 290px;
+    font-size: 20px;
+}
+
+
+/* confirmation page */
+.regis{
+    color:orange;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+.home1{
+    color:grey;
+
+    
+ 
+}
+
+.recipebox {
+    margin-left: 650px;
+    font-size: 20px;
+    width: 269px;
+    height: 480px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:lightgray;
+}
+
+.name1 {
+    font-size:24px;
+
+}
+
+.desc {
+    font-size: 15px;
+}
